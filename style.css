@@ -1,0 +1,165 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Ubuntu+Mono&display=swap'); 
+ /* :root{
+    --green:#27ae60;
+    --black:#2c2c54;
+ } */
+ *{
+    font-family: 'Nunito', sans-serif;
+    margin:0;padding:0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+ }
+ *::selection
+ {
+    background:#27ae60;
+    color: #fff;
+ }
+ html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5 rem;
+    scroll-behavior: smooth;
+ }
+ .header-1
+ {
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;;
+ }
+  .logo
+ {
+
+    font-size: 33px;
+   color: #2c2c54; 
+    font-weight: bolder; 
+ }
+ .logo i
+ {
+    padding-right: 10px ;
+    color:rgb(248, 109, 9);
+ }
+  .header-1 .search-box-container
+ {
+    display: flex;
+    height: 55px;
+ } 
+  .header-1 .search-box-container #search-box
+ {
+    height:100%;
+    width: 100%;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #333;
+    border:1rem solid rgba(0, 0, 0, .3);
+    text-transform: none;
+ }
+ .header-1 .search-box-container label
+ {
+    height: 100%;
+    width:8rem ;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    color: #fff;
+    background: #27ae60;
+    text-align: center;
+    cursor: pointer;
+ }  
+ .header-1 .search-box-container label:hover
+ {
+   background: #2c2c54;
+ } 
+ .header-2
+ {
+    background: #f0d7e483;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 9%;
+    box-shadow: 8px 16px rgba(0, 0, 0, .1) ;
+ }
+
+ .header-2 .navbar a
+ {
+   padding: 1px 24px;
+   font-size: 27px;
+   border-radius: 30px;
+   color: #4c0211;
+ }
+ .header-2 .navbar a:hover
+ {
+   background: #27ae60;
+   color:#fff;
+ }
+ .header-2 .icons a
+ {
+   font-size: 32px;
+   color:#2c2c54;
+   padding-left: 16px;
+ }
+ .header-2 .icons a:hover
+ {
+    color: #27ae60;
+   
+ }
+ #menu-bar
+ {
+   font-size: 48px;
+   border-radius: 8px;
+   border: 16px solid #2c2c54;
+   padding: 14.4px 24px;
+   color:#2c2c54;
+   cursor: pointer;
+   display: none;
+   
+ }
+ .grocery img
+ {
+   width:100%;
+   height:50%;
+   
+ }
+ .image
+ {
+  
+   position:relative;
+ }
+ .myspan
+ {
+   position:absolute;
+   top:100px;
+   right: 200px;
+   font-size: large;
+   vertical-align: middle;
+   color: #45020f;
+   font: weight 600px;
+ }
+.myhead
+{
+   position:absolute;
+   top: 90px;
+   right: 120px; 
+   font-size: xx-large;
+   color: #4c0211;
+}
+.btn a
+{
+   position: absolute;
+   top: 250px;
+   right: 180px;
+   font-size: x-large;
+  
+   background-color: #27ae60;
+   width: 160px;
+   cursor: pointer;
+   color: #fff;
+   
+}
+.btn a:hover
+{
+   background-color: #2c2c54;
+}
